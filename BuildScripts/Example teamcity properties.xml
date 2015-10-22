@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?> 
+<properties>
+<comment>TeamCity build properties without 'system.' prefix</comment>
+<entry key="agent.home.dir">C:\TeamCity\buildAgent</entry>
+<entry key="agent.name">Teamcity</entry>
+<entry key="agent.ownPort">9090</entry>
+<entry key="agent.work.dir">C:\TeamCity\buildAgent\work</entry>
+<entry key="branchName">feature_cidev</entry>
+<entry key="build.number">88</entry>
+<entry key="build.vcs.number">821ba6eb04a9f0ed5361fc6c286e39c1bf3d7106</entry>
+<entry key="build.vcs.number.1">821ba6eb04a9f0ed5361fc6c286e39c1bf3d7106</entry>
+<entry key="FxCopCmdFileVersion">12.0.21005.1</entry>
+<entry key="FxCopRoot">C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop</entry>
+<entry key="java.io.tmpdir">C:\TeamCity\buildAgent\temp\buildTmp</entry> 
+<entry key="teamcity.agent.cpuBenchmark">536</entry>
+<entry key="teamcity.agent.dotnet.agent_url">http://localhost:9090/RPC2</entry>;
+<entry key="teamcity.agent.dotnet.build_id">118</entry>
+<entry key="teamcity.auth.password">uzAalpAQSJWBzKwG926bwqKFN0McOQcX</entry>
+<entry key="teamcity.auth.userId">TeamCityBuildId=118</entry>
+<entry key="teamcity.build.changedFiles.file">C:\TeamCity\buildAgent\temp\buildTmp\changedFiles5642401678126399620.txt</entry>
+<entry key="teamcity.build.checkoutDir">C:\TeamCity\buildAgent\work\f0de667c463a4e07</entry>
+<entry key="teamcity.build.id">118</entry>
+<entry key="teamcity.build.properties.file">C:\TeamCity\buildAgent\temp\buildTmp\teamcity.build8348511163420177053.properties</entry>
+<entry key="teamcity.build.tempDir">C:\TeamCity\buildAgent\temp\buildTmp</entry>
+<entry key="teamcity.build.workingDir">C:\TeamCity\buildAgent\work\f0de667c463a4e07</entry>
+<entry key="teamcity.buildConfName">BuildTestAndDeploy</entry>
+<entry key="teamcity.buildType.id">asdf</entry>
+<entry key="teamcity.configuration.properties.file">C:\TeamCity\buildAgent\temp\buildTmp\teamcity.config1104542667648472393.properties</entry>
+<entry key="teamcity.dotnet.nunitaddin">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.TeamCity.NUnitAddin-NUnit</entry>
+<entry key="teamcity.dotnet.nunitlauncher">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.BuildServer.NUnitLauncher.exe</entry>
+<entry key="teamcity.dotnet.nunitlauncher.msbuild.task">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.BuildServer.MSBuildLoggers.dll</entry>
+<entry key="teamcity.dotnet.nunitlauncher1.1">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.BuildServer.NUnitLauncher1.1.exe</entry>
+<entry key="teamcity.dotnet.nunitlauncher2.0">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.BuildServer.NUnitLauncher2.0.exe</entry>
+<entry key="teamcity.dotnet.nunitlauncher2.0.vsts">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.BuildServer.NUnitLauncher2.0.VSTS.exe</entry>
+<entry key="teamcity.dotnet.platform">C:\TeamCity\buildAgent\plugins\dotnetPlugin\bin\JetBrains.TeamCity.PlatformProcessRunner.1.1.exe</entry>
+<entry key="teamcity.projectName">Platform</entry>
+<entry key="teamcity.runner.properties.file">C:\TeamCity\buildAgent\temp\buildTmp\teamcity.runner3164221454841006008.properties</entry>
+<entry key="teamcity.tests.recentlyFailedTests.file">C:\TeamCity\buildAgent\temp\buildTmp\testsToRunFirst6206260615119941020.txt</entry>
+<entry key="teamcity.version">9.1.3 (build 37176)</entry>
+</properties>
