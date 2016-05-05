@@ -1,7 +1,7 @@
 ﻿
 $parametersFilePath =  if (![String]::IsNullOrEmpty($env:TEAMCITY_VERSION)) { $env:TEAMCITY_BUILD_PROPERTIES_FILE + ".xml" } else { ".\BuildScripts\Example Teamcity Properties.xml" }
 
-$tokens = & "BuildScripts/Load Teamcity Parameters.ps1" -file $parametersFilePath
+$tokens = & "$PSScriptRoot/Load Teamcity Parameters.ps1" -file $parametersFilePath
  
 Write-Host "Found tokens:"
 $tokens
@@ -13,7 +13,7 @@ Get-ChildItem -Filter *.branch.config -Recurse | % {
     $transformFile = $_.FullName
     $shortName = $_.FullName.Substring($PSScriptRoot.Length - 7)
     write-host "     detokenising  $shortName ..."
-    & "BuildScripts/Detokenise File.ps1" $transformFile $transformFile $tokens
+    & "$PSScriptRoot/Detokenise File.ps1" $transformFile $transformFile $tokens
 
     write-host "     done."
 }
