@@ -20,4 +20,4 @@ if ($branch.StartsWith("feature_")){
 
 
 
-write-host "##teamcity[setParameter name='system.branchName' value='$branch']"
+write-host "##teamcity[setParameter name='system.BranchName' value='$branch']"
